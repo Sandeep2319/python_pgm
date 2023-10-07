@@ -44,3 +44,10 @@
 # var3  = input("Enter a number:")
 # print(var3==1)
 print ("Hello world i am from mumbai")
+
+
+raw_str = r"raw \n string "
+
+a = True + 4
+b = False + 10
+print ("a")
