@@ -39,15 +39,17 @@
 # var2 =1.0
 # print (type(var2))
 # print (var1==var2)
-# '''
+# 
 
 # var3  = input("Enter a number:")
 # print(var3==1)
-print ("Hello world i am from mumbai")
+# print ("Hello world i am from mumbai")
 
 
-raw_str = r"raw \n string "
+# raw_str = r"raw \n string "
 
-a = True + 4
-b = False + 10
-print ("a")
+# a = True + 4
+# b = False + 10
+# print ("a")
+
+my_name = "Sandeep"

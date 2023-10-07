@@ -8,6 +8,6 @@ while (no > 0):
     no=no//10 # 12,1
 print(sum)
 if (temp==sum):
-    print("Number is palindrome...")
+    print("Number is pallindrome...")
 else :
     print("Not Palindrome Number..")
