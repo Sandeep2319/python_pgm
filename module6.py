@@ -1,6 +1,8 @@
 src = input("Enter the source: ")
 dest= input("Enter the destination: ")
-fare = int(input("Enter the fare: "))
+fare = int(input("Enter the faare: "))
 discount =int(input("Enter the discount:"))
 
-print (f"fare from {src} to {dest} is {fare} INR with has a discount of {discount}")
+dis=fare-discount/100*fare
+
+print (f"fare from {src} to {dest} is {fare} INR with has a discount of {dis}")

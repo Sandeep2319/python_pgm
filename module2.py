@@ -1,2 +1,3 @@
-str1=input("Enter the value: ")
-print (str1.upper())
+def strupper():
+    str1=input("Enter the value: ")
+    print (str1.upper())
