@@ -8,7 +8,7 @@ def get_title(soup):
     try:
         # Outer Tag Object
         title = soup.find("span", attrs={"id":'productTitle'})
-        # Inner NavigatableString Object
+        # Inner NavigableString Object
         title_value = title.text
 
         # Title as a string value

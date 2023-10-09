@@ -1,9 +1,9 @@
 #Factorial of number using recursive  
-def function(num):
-    if(num==0):
+def function(fo):
+    if(fo==0):
        return 1
     else:
-         return function(num-1)*num
+         return function(fo-1)*fo
      
      
 fo= int(input("Enter a number : "))
