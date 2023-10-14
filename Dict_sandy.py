@@ -6,6 +6,16 @@ def dict():
         value = input("Enter the value: ")
         dict[key] = value
     return dict
+
+
+def  tuple1():
+    tuple2=()
+    ele=int(input("Enter the no u want to insert: "))
+    for i in range(0,ele):
+        # key = input("Enter the key: ")
+        value = input("Enter the value for tuple seprated by comma: ").split(",")
+    return tuple2 
+    
 d={}
 
 no_of_item=int(input("Enter the no of elements do u want to add: "))
@@ -24,11 +34,12 @@ for i in range(0,no_of_item):
         d [keys] = values
     elif(t == 'dict'):
         d[keys] = dict()
-    elif(t == 'list'):
-        values = int(input("Enter the value: "))
-        d[keys] = values
+    elif(t == 'tuple'):
+        d [keys] = tuple1()
     
 #Calling dictionary here!     
 print(d)
-     
+
                 
+                
+            
